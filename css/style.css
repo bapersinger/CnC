@@ -1,0 +1,283 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.button a {
+  color: white;
+}
+
+.header {
+  background-color: white;
+}
+
+.header {
+  width: 120px;
+  border-right: 1px solid;
+  border-color: #dcE0E0;
+  display: block;
+  background-color: white;
+}
+
+.hero img {
+  width: 100%;
+}
+
+/* 
+White
+*/
+
+.profile {
+  padding: 10px;
+}
+
+.booking {
+  padding: 10px;
+}
+
+.white {
+  background-color: #fff;
+  text-align: center;
+}
+
+.ownerdetails img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.ownerdetails p {
+  color: #909597;
+  font-size: 14px;
+}
+
+.petdetails h2 {
+  color: #666a6c;
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.petdetails p {
+  color: #666a6c;
+  font-size: 14px;
+}
+
+.white .icon img{
+ height: 30px;
+}
+
+.white .icon {
+  float: left;
+  width: 33.3%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.booking h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.booking span {
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.about {
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.about h1 {
+  font-family: 'open sans';
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 34px;
+}
+
+.about p{
+  padding-top:27px;
+  font-family: 'open sans';
+  font-size: 13px;
+  line-height: 22px;
+  color: #565A5C;
+}
+
+.about h3 {
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 16px;
+  text-align: center;
+  color: #FF595F;
+  padding-bottom: 28px;
+}
+
+.care {
+  line-height: 16px;
+}
+
+.caretitle {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.diettoy, .times {
+  padding-left: 10px;
+}
+
+.times {
+  padding-bottom: 20px;
+}
+
+.gamestitle {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.games img {
+  padding: 5px;
+  float:left;
+}
+
+.games h2 {
+  float: left;
+}
+
+.game {
+  height: 30px;
+}
+
+.photos img {
+  width: 270px;
+  padding-top: 28px;
+  padding-left: 27px;
+  margin: auto 0;
+}
+
+.line {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1px;
+  color: #DCE0E0;
+}
+
+@media only screen and (min-width: 1060px) {
+
+  .info {
+    background: #fff;
+  }
+
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+  }
+ 
+  .profile {
+    float:left;
+    width: 660px;
+    padding: 20px;
+  }
+
+  .ownerdetails {
+    float: left;
+    width: 20%;
+   
+  }
+
+  .petdetails {
+    float: left;
+    width: 80%;
+    
+  }
+
+  .petdetails h2,h1 {
+    text-align: left;
+  }
+
+  .icons {
+    width: 75%;
+  }
+
+  .booking {
+    float: left;
+    width: 380px;
+    padding: 20px;
+  }
+
+  .column {
+    float: left;
+  }
+
+  .care .column, .games .column {
+    height: 130px;
+    padding: 28px;
+  }
+
+  .caretitle, .gamestitle {
+    width: 170px;
+  }
+
+  .diettoy, .gamelist {
+    width: 250px;
+  }
+
+  .photos img {
+    height: 300px;
+    width: 200px;
+    padding: 28px, 27px, 80px, 27px;
+    margin-bottom: 80px;
+  }
+}
+
